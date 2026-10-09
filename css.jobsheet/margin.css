@@ -1,0 +1,21 @@
+.kotak1{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.kotak2{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+.kotak3{
+    width: 60px;
+    height: 60px;
+    background-color: blue;
+}

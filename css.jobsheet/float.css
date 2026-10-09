@@ -1,0 +1,9 @@
+h1{
+    text-align: center;
+    color: blue;
+}
+.gambar{
+    width: 100px;
+    float: left;
+    margin-right:10px;
+}

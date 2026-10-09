@@ -1,0 +1,10 @@
+body{
+    background: url(field1.jpg),url(tree1.jpg);
+    background-repeat: no-repeat,repeat;
+    color: white;
+}
+h2{
+    color: rgb(232, 232, 239);
+    font-family: monospace;
+    text-align: center;
+}

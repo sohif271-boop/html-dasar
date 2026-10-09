@@ -1,0 +1,15 @@
+.font1{
+    color: red;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+.font2{
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.font3{
+    color: burlywood;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: italic;
+}
