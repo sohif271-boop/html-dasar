@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var jawab = prompt("silahkan pilih hadiah beruntung pilih angka 1 -5 ");
+        var hadiah = "";
+
+        switch(jawab){
+            case "1":
+            hadiah = "tisu";
+            break;
+            case "2":
+            hadiah = "uang";
+            break;
+            case "3":
+            hadiah = "rumah";
+            break;
+            case "4":
+            hadiah = "mobil";
+            break;
+            case "5":
+            hadiah = "sepeda";
+            break;
+            default:
+                document.write("opsss anda salah pilihan"); }
+
+                if(hadiah === ""){
+                    document.write("coba lagi");
+                }else(
+                    document.write("selemat kamu mendapatkan" + hadiah)
+                );
+    </script>
+</body>
+</html>
