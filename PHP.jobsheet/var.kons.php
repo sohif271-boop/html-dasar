@@ -11,7 +11,9 @@
 // echo " variable benar : $benar variable salah : $salah ";
 
 
-define("namasitus","yasminestore.com");
-define("tahunberdiri",2026);
-echo"selamat datang di ".namasitus." website ini didirikan pada tahun " .tahunberdiri. "";
+// define("namasitus","yasminestore.com");
+// define("tahunberdiri",2026);
+// echo"selamat datang di ".namasitus." website ini didirikan pada tahun " .tahunberdiri. "";
+
+
 ?>
