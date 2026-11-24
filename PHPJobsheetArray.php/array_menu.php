@@ -37,7 +37,9 @@ function tampilmenu(array $menu){
     echo "<ul>";
     foreach($menu as $key => $item){
         echo"<li>{$item['nama']}</li>";
-        echo"<li>{$item['submenu']}</li>";
+        if (isset($item['subMenu'])){
+            tampilmenu($item['subMenu']);
+        }
     }
     echo "</ul>";
 }
